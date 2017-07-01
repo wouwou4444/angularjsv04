@@ -1,0 +1,5 @@
+<ul>
+  <li ng-repeat="category in $ctrl.categories">
+    <a ui-sref="mainItemsList({catShortName: category.short_name})">{{ category.name }}</a> / {{category.short_name}} : {{ category.special_instructions }}
+  </li>
+</ul>
