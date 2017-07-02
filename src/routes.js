@@ -11,7 +11,7 @@
         
         $stateProvider
         .state('home', {
-            url: 'https://wouwou4444.github.io/angularjsv04/#!/',
+            url: '/',
             templateUrl: 'src/menuapp/templates/home.template.html'
         })
 
@@ -19,7 +19,7 @@
         
         // categories
         .state('menuCategories', {
-            url: 'https://wouwou4444.github.io/angularjsv04/#!/menu-categories',
+            url: '/menu-categories',
             templateUrl: 'src/menuapp/templates/menu-categories.template.html',
             controller: 'CategoriesListController as cat',
             resolve: {
@@ -30,7 +30,7 @@
         })
         // items
         .state('mainItemsList', {
-            url: 'https://wouwou4444.github.io/angularjsv04/#!/main-items-list/{catShortName}',
+            url: '/main-items-list/{catShortName}',
             templateUrl: 'src/menuapp/templates/main-items-list.template.html',
             controller: 'ItemsListController as itemsList',
             resolve: {
