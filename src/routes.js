@@ -11,7 +11,7 @@
         
         $stateProvider
         .state('home', {
-            url: '/',
+            url: 'https://wouwou4444.github.io/angularjsv04/#!/',
             templateUrl: 'src/menuapp/templates/home.template.html'
         })
 
